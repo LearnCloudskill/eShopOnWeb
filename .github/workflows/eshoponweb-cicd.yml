@@ -5,7 +5,7 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: rg-az400-eshoponwebone
+  RESOURCE-GROUP: Jenkins2-RG
   LOCATION: South India
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 5f296807-2568-4f3b-b352-f63d65cf9f06
